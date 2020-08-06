@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+button#yellow-button:hover {background-color: rgb(223, 223, 30)}
+
+button#yellow-button:active {
+  background-color: rgb(233, 233, 38);
+  box-shadow: 0 5px rgb(145, 133, 2);
+  transform: translateY(4px);
+}
+
+
+
+button#yellow-button {
+  background-color: yellow;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 250px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px rgb(145, 133, 2);
+
+}
+button#red-button:hover {background-color: rgb(169, 2, 2)}
+
+button#red-button:active {
+  background-color: rgb(210, 4, 4);
+  box-shadow: 0 9px rgb(116, 1, 1);
+  transform: translateY(4px);
+}
+
+button#red-button {
+  background-color: red;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  width: 250px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(116, 1, 1);
+}
+
+button#blue-button:hover {background-color: rgb(1, 1, 186)}
+
+button#blue-button:active {
+  background-color: rgb(3, 3, 150);
+  box-shadow: 0 9px rgb(2, 2, 69);
+  transform: translateY(4px);
+}
+
+button#blue-button {
+  background-color: blue;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  width: 250px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(2, 2, 69);
+
+}
+
+button#green-button:hover {background-color: rgb(4, 103, 4)}
+
+button#green-button:active {
+  background-color: rgb(1, 106, 1);
+  box-shadow: 0 9px rgb(1, 65, 1);
+  transform: translateY(2px);
+}
+
+button#green-button {
+  background-color: green;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  width: 250px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(1, 65, 1);
+
+}
+
