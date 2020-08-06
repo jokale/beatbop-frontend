@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div >
-        <h1>Beat Bop</h1>
+        <center><h1>Beat Bop</h1></center>
         <Yellow/>
         <br></br>
         <Blue/>

@@ -12,11 +12,13 @@ code {
     monospace;
 }
 
+
+
+
 button#yellow-button:hover {background-color: rgb(223, 223, 30)}
 
 button#yellow-button:active {
   background-color: rgb(233, 233, 38);
-  box-shadow: 0 5px rgb(145, 133, 2);
   transform: translateY(4px);
 }
 
@@ -29,17 +31,17 @@ button#yellow-button {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  width: 250px;
+  width: 280px;
+  height: 300px;
   border: none;
   border-radius: 15px;
-  box-shadow: 0 5px rgb(145, 133, 2);
+  position:absolute; left:220px; top:100px;
 
 }
 button#red-button:hover {background-color: rgb(169, 2, 2)}
 
 button#red-button:active {
   background-color: rgb(210, 4, 4);
-  box-shadow: 0 9px rgb(116, 1, 1);
   transform: translateY(4px);
 }
 
@@ -49,17 +51,18 @@ button#red-button {
   text-align: center;
   display: inline-block;
   font-size: 16px;
-  width: 250px;
+  width: 280px;
+  height: 300px;
   border: none;
   border-radius: 15px;
-  box-shadow: 0 9px rgb(116, 1, 1);
+  position:absolute; right :220px; top:100px;
+
 }
 
 button#blue-button:hover {background-color: rgb(1, 1, 186)}
 
 button#blue-button:active {
   background-color: rgb(3, 3, 150);
-  box-shadow: 0 9px rgb(2, 2, 69);
   transform: translateY(4px);
 }
 
@@ -69,10 +72,12 @@ button#blue-button {
   text-align: center;
   display: inline-block;
   font-size: 16px;
-  width: 250px;
+  width: 280px;
+  height: 300px;
   border: none;
   border-radius: 15px;
-  box-shadow: 0 9px rgb(2, 2, 69);
+  position:absolute; left :220px; top:400px;
+
 
 }
 
@@ -80,7 +85,6 @@ button#green-button:hover {background-color: rgb(4, 103, 4)}
 
 button#green-button:active {
   background-color: rgb(1, 106, 1);
-  box-shadow: 0 9px rgb(1, 65, 1);
   transform: translateY(2px);
 }
 
@@ -90,10 +94,16 @@ button#green-button {
   text-align: center;
   display: inline-block;
   font-size: 16px;
-  width: 250px;
+  width: 280px;
+  height: 300px;
   border: none;
   border-radius: 15px;
-  box-shadow: 0 9px rgb(1, 65, 1);
+  position:absolute; right :220px; top:400px;
+
 
 }
 
+footer {
+  position:absolute; right :200px; top:800px;
+
+}

@@ -3,7 +3,7 @@ import React from 'react'
 class Footer extends React.Component{
     render() {
         return (
-            <footer> <center>
+            <footer id="footer"> <center>
                 <big  style={{color: "#55025e", fontFamily: 'Abril Fatface'}}>Joanna E Kalema Applications &copy;</big>
                 <br></br>
                 <small style={{color: "#55025e", fontFamily: 'Abril Fatface'}}>To see more check out more of my other <a href="https://joannathedeveloper.netlify.app/">projects</a></small>
