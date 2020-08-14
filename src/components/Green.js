@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from './Footer';
 
 class Green extends React.Component {
    

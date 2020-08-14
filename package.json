@@ -4,8 +4,10 @@
   "private": true,
   "dependencies": {
     "cra-template": "1.0.3",
+    "howler": "^2.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-hot-loader": "^4.12.21",
     "react-scripts": "^3.4.3"
   },
   "scripts": {
