@@ -4,7 +4,7 @@ import Yellow from './components/Yellow'
 import Blue from './components/Blue'
 import Red from './components/Red'
 import Green from './components/Green'
-import Pink from './components/Pink'
+// import Pink from './components/Pink'
 
 
 import './App.css';
@@ -25,7 +25,6 @@ function App() {
         <Green/>
         <br></br>
 
-        <Pink/>
 
 
 <Footer/>
