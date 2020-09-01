@@ -18,7 +18,7 @@ function App() {
         <br></br>
         <Blue/>
         <br></br>
-
+        <h1 id="middle-title">BEAT BOP IT</h1>
         <Red/>
         <br></br>
 
