@@ -13,12 +13,11 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div >
-        <center><h1>Beat Bop</h1></center>
         <Yellow/>
         <br></br>
         <Blue/>
         <br></br>
-        <h1 id="middle-title">BEAT BOP IT</h1>
+        <center><h1 id="middle-title">BEAT <br></br> BOP <br></br> IT</h1></center>
         <Red/>
         <br></br>
 
